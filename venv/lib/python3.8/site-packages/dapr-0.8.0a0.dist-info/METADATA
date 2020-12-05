@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dapr
+Version: 0.8.0a0
+Summary: The official release of Dapr Python SDK
+Home-page: https://dapr.io/
+Author: Dapr Authors
+Author-email: daprweb@microsoft.com
+License: MIT
+Project-URL: Documentation, https://github.com/dapr/docs
+Project-URL: Source, https://github.com/dapr/python-sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Requires-Dist: protobuf (==3.13.0)
+Requires-Dist: grpcio (==1.26.0)
+Requires-Dist: aiohttp (>=3.6.2)
+Requires-Dist: python-dateutil (>=2.8.1)
+Requires-Dist: opencensus (==0.7.10)
+Requires-Dist: opencensus-ext-grpc (==0.7.1)
+
+Dapr is a portable, serverless, event-driven runtime that makes it easy for developers to
+build resilient, stateless and stateful microservices that run on the cloud and edge and
+embraces the diversity of languages and developer frameworks.
+
+Dapr codifies the best practices for building microservice applications into open,
+independent, building blocks that enable you to build portable applications with the language
+and framework of your choice. Each building block is independent and you can use one, some,
+or all of them in your application.
+
+
